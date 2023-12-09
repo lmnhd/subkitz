@@ -14,7 +14,7 @@ import { get } from "http";
 
 //Amplify.configure(config);
 
-export function Home() {
+ function Page() {
   const [audio, setAudio] = useState<any>(null);
   const [soundList, setSoundList] = useState<string[]>([]);
   const [player1, setPlayer1] = useState<Tone.Player>(
@@ -118,4 +118,4 @@ export function Home() {
     </main>
   );
 }
-export default withAuthenticator(Home);
+export default withAuthenticator(Page);
