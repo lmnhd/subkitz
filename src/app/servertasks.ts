@@ -1,10 +1,10 @@
 
 import { uploadData, downloadData, list, getUrl } from "aws-amplify/storage";
 import { Amplify } from 'aws-amplify';
-import awsconfig from '../aws-exports';
-import config from '../amplifyconfiguration.json'
+// import awsconfig from '../aws-exports';
+// import config from '../amplifyconfiguration.json'
 
-Amplify.configure(config);
+//Amplify.configure(config);
 
 //public\606cymb.wav
 

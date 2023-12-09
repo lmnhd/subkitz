@@ -7,12 +7,12 @@ import { downloadToMemory, getS3URL } from "./servertasks";
 import * as Tone from "tone";
 import { withAuthenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
-import config from "../amplifyconfiguration.json";
+// import config from "../amplifyconfiguration.json";
 import React, { useEffect, useState } from "react";
 import { Howl, Howler } from "howler";
 import { get } from "http";
 
-Amplify.configure(config);
+//Amplify.configure(config);
 
 export function Home() {
   const [audio, setAudio] = useState<any>(null);

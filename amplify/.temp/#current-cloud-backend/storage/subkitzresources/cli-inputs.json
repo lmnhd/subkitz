@@ -1,0 +1,15 @@
+{
+  "resourceName": "subkitzresources",
+  "policyUUID": "3a24946a",
+  "bucketName": "kitz",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "S3Triggerbe6769e7",
+  "groupAccess": {}
+}
