@@ -1,7 +1,12 @@
 import type { Metadata } from 'next'
+import { Amplify } from 'aws-amplify';
+
+import awsconfig from '../aws-exports';
+
 import { Dhurjati } from 'next/font/google'
 import './globals.css'
 
+Amplify.configure(awsconfig);
 const dhurjati = Dhurjati({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata: Metadata = {
@@ -9,7 +14,7 @@ export const metadata: Metadata = {
   description: 'bomb the beat',
 }
 
-export default function RootLayout({
+export default  function RootLayout({
   children,
 }: {
   children: React.ReactNode
@@ -20,3 +25,4 @@ export default function RootLayout({
     </html>
   )
 }
+

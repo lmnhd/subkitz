@@ -9,14 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "aws-amplify": "^6.0.5",
+    "@aws-amplify/adapter-nextjs": "^1.0.6",
+    "@aws-amplify/ui-react": "^6.0.4",
+    "aws-amplify": "^6.0.6",
+    "howler": "^2.2.4",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tone": "^14.7.77"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.5.5",
     "@aws-amplify/backend-cli": "^0.9.1",
+    "@types/howler": "^2.2.11",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

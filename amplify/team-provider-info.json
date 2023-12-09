@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-subkitz-dev-213053-authRole",
+      "UnauthRoleArn": "arn:aws:iam::622703699030:role/amplify-subkitz-dev-213053-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::622703699030:role/amplify-subkitz-dev-213053-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-subkitz-dev-213053-deployment",
+      "UnauthRoleName": "amplify-subkitz-dev-213053-unauthRole",
+      "StackName": "amplify-subkitz-dev-213053",
+      "StackId": "arn:aws:cloudformation:us-east-1:622703699030:stack/amplify-subkitz-dev-213053/7bfe2f70-93df-11ee-b85f-0ab46aa2da25",
+      "AmplifyAppId": "d2xo0trd5odism"
+    },
+    "categories": {
+      "auth": {
+        "subkitz9b81fee1": {}
+      },
+      "function": {
+        "S3Triggerbe6769e7": {
+          "deploymentBucketName": "amplify-subkitz-dev-213053-deployment",
+          "s3Key": "amplify-builds/S3Triggerbe6769e7-366d446b516c7351312f-build.zip"
+        }
+      },
+      "api": {
+        "subkitz": {}
+      },
+      "storage": {
+        "subkitzresources": {}
+      }
+    }
+  }
+}

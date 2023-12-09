@@ -13,6 +13,19 @@ const schema = a.schema({
       content: a.string(),
     })
     .authorization([a.allow.owner(), a.allow.public().to(['read'])]),
+  Sample: a.model({
+    name: a.string(),
+    s3Path: a.string(),
+    description: a.string(),
+    tags: a.string().array(),
+    drum: a.string(), //sub, kick, snare, hat, cymbal, tom, perc
+    hygiene:a.string(), //clean, dirty
+    length: a.string(), //short, mid, long
+    pitchRange: a.string(), //low, mid, high
+    genres: a.string().array(), //hiphop, trap, rnb, pop, rock, jazz, soul, funk, electronic, experimental, world, fx
+    loudness: a.string(), //soft, mid, loud
+  }).authorization([a.allow.owner(), a.allow.public().to(['read'])]),
+  
 });
 
 export type Schema = ClientSchema<typeof schema>;
