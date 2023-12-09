@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import { Amplify } from 'aws-amplify';
 
-import awsconfig from '../aws-exports';
+//import awsconfig from '../aws-exports';
 
 import { Dhurjati } from 'next/font/google'
 import './globals.css'
 
-Amplify.configure(awsconfig);
+//Amplify.configure(awsconfig);
 const dhurjati = Dhurjati({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata: Metadata = {
