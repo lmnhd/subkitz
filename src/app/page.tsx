@@ -109,7 +109,7 @@ export function Home() {
 
      {soundList && soundList.map((sound) => {
         return <Button
-        
+        key={sound}
         className="w-1/2 text-lg text-white"
         onClick={() => previewSound(sound)}>
           {sound}

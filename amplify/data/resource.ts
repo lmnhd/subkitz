@@ -24,6 +24,7 @@ const schema = a.schema({
     pitchRange: a.string(), //low, mid, high
     genres: a.string().array(), //hiphop, trap, rnb, pop, rock, jazz, soul, funk, electronic, experimental, world, fx
     loudness: a.string(), //soft, mid, loud
+    decadeStyle:a.string(), //50s, 60s, 70s, 80s, 90s, 00s, 10s, 20s
   }).authorization([a.allow.owner(), a.allow.public().to(['read'])]),
   
 });
